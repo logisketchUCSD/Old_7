@@ -1,0 +1,173 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+Minimum Distance <= 0.013937
+|   Distance Ratio B <= 0.990317
+|   |   Distance Ratio A <= 0.979456: Ignore (13.0)
+|   |   Distance Ratio A > 0.979456: Join (11.0/1.0)
+|   Distance Ratio B > 0.990317: Join (689.0)
+Minimum Distance > 0.013937
+|   Minimum Endpoint to Endpoint Distance <= 0.024702
+|   |   Maximum Distance <= 0.034971: Ignore (10.0)
+|   |   Maximum Distance > 0.034971: NoJoin (15.0)
+|   Minimum Endpoint to Endpoint Distance > 0.024702: NoJoin (4087.0/1.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Weight: 7.79
+
+J48 pruned tree
+------------------
+
+Distance Ratio B <= 0.987616
+|   Minimum Endpoint to Endpoint Distance <= 0.027986
+|   |   Maximum Distance <= 0.037133
+|   |   |   Minimum Endpoint to Endpoint Distance <= 0.008445: Join (2.0)
+|   |   |   Minimum Endpoint to Endpoint Distance > 0.008445: Ignore (11.5)
+|   |   Maximum Distance > 0.037133: NoJoin (11.5)
+|   Minimum Endpoint to Endpoint Distance > 0.027986: NoJoin (3174.07)
+Distance Ratio B > 0.987616
+|   Centroid Distance <= 0.042662
+|   |   Vertical Overlap <= -0.000176
+|   |   |   Vertical Overlap <= -0.009086: NoJoin (3.5)
+|   |   |   Vertical Overlap > -0.009086: Join (21.51)
+|   |   Vertical Overlap > -0.000176: Join (1531.88)
+|   Centroid Distance > 0.042662: NoJoin (69.03/0.5)
+
+Number of Leaves  : 	8
+
+Size of the tree : 	15
+
+
+Weight: 9.17
+
+J48 pruned tree
+------------------
+
+Distance Ratio B <= 0.987616
+|   Vertical Overlap <= -0.010045: NoJoin (1510.66/0.75)
+|   Vertical Overlap > -0.010045
+|   |   Horizontal Overlap <= -0.019672: NoJoin (83.04)
+|   |   Horizontal Overlap > -0.019672: Ignore (6.0/1.0)
+Distance Ratio B > 0.987616
+|   Vertical Overlap <= -0.009086: NoJoin (32.77)
+|   Vertical Overlap > -0.009086
+|   |   Vertical Overlap <= 0.016333: Join (3147.01/0.5)
+|   |   Vertical Overlap > 0.016333
+|   |   |   Minimum Distance <= 0.018435: Join (42.77)
+|   |   |   Minimum Distance > 0.018435: NoJoin (2.75)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Weight: 7.67
+
+J48 pruned tree
+------------------
+
+Distance Ratio A <= 0.98098
+|   Centroid Distance <= 0.027978: Ignore (806.67)
+|   Centroid Distance > 0.027978: NoJoin (983.93)
+Distance Ratio A > 0.98098
+|   Vertical Overlap <= -0.008686: NoJoin (359.67)
+|   Vertical Overlap > -0.008686
+|   |   Vertical Overlap <= 0.002133: Join (2605.54/0.88)
+|   |   Vertical Overlap > 0.002133
+|   |   |   Minimum Distance <= 0.018241: Join (62.94)
+|   |   |   Minimum Distance > 0.018241: NoJoin (6.26)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Weight: 8.61
+
+J48 pruned tree
+------------------
+
+Centroid Distance <= 0.049719
+|   Vertical Overlap <= -0.007017
+|   |   Centroid Distance <= 0.024697: Ignore (402.66/0.06)
+|   |   Centroid Distance > 0.024697: NoJoin (160.47)
+|   Vertical Overlap > -0.007017: Join (1334.92/0.94)
+Centroid Distance > 0.049719: NoJoin (2926.95)
+
+Number of Leaves  : 	4
+
+Size of the tree : 	7
+
+
+Weight: 8.48
+
+J48 pruned tree
+------------------
+
+Maximum Distance <= 0.034448
+|   Distance Ratio B <= 0.979462: Ignore (2161.5)
+|   Distance Ratio B > 0.979462: Join (282.3)
+Maximum Distance > 0.034448
+|   Minimum Distance <= 0.011326: Join (460.08)
+|   Minimum Distance > 0.011326
+|   |   Distance Ratio B <= 0.999965: NoJoin (1775.93/0.03)
+|   |   Distance Ratio B > 0.999965
+|   |   |   Vertical Overlap <= 0.001423: NoJoin (69.51)
+|   |   |   Vertical Overlap > 0.001423: Join (75.68/0.19)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Weight: 10.0
+
+J48 pruned tree
+------------------
+
+Minimum Distance <= 0.021899
+|   Distance Ratio A <= 0.979456: Ignore (1081.02/0.22)
+|   Distance Ratio A > 0.979456
+|   |   Vertical Overlap <= -0.009375: NoJoin (37.97)
+|   |   Vertical Overlap > -0.009375: Join (715.87)
+Minimum Distance > 0.021899
+|   Maximum Distance <= 0.05657: Join (38.77/1.03)
+|   Maximum Distance > 0.05657: NoJoin (2951.38)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	9
+
+
+Weight: 8.26
+
+J48 pruned tree
+------------------
+
+Centroid Distance <= 0.030341
+|   Distance Ratio B <= 0.979462: Ignore (540.55/0.02)
+|   Distance Ratio B > 0.979462: Join (282.48)
+Centroid Distance > 0.030341
+|   Minimum Endpoint to Any Point Distance <= 0.011935: Join (75.55)
+|   Minimum Endpoint to Any Point Distance > 0.011935
+|   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.99707: NoJoin (2828.78)
+|   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.99707
+|   |   |   Distance Ratio B <= 0.999941: NoJoin (1061.86)
+|   |   |   Distance Ratio B > 0.999941
+|   |   |   |   Vertical Overlap <= 0.001423: NoJoin (16.91)
+|   |   |   |   Vertical Overlap > 0.001423: Join (18.87)
+
+Number of Leaves  : 	7
+
+Size of the tree : 	13
+
+
+Weight: 12.64
+
+Number of performed Iterations: 8

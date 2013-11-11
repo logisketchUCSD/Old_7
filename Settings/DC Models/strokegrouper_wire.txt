@@ -1,0 +1,208 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+Minimum Endpoint to Any Point Distance <= 0.013353
+|   Minimum Distance <= 0.007606
+|   |   Minimum Endpoint to Any Point Distance <= 0.007684: Join (2292.0/36.0)
+|   |   Minimum Endpoint to Any Point Distance > 0.007684
+|   |   |   Vertical Overlap <= 0.052089
+|   |   |   |   Horizontal Overlap <= 0.1716
+|   |   |   |   |   Distance Ratio B <= 0.997875: Join (41.0/5.0)
+|   |   |   |   |   Distance Ratio B > 0.997875
+|   |   |   |   |   |   Distance Ratio B <= 0.998726: NoJoin (6.0/1.0)
+|   |   |   |   |   |   Distance Ratio B > 0.998726: Join (65.0/7.0)
+|   |   |   |   Horizontal Overlap > 0.1716: NoJoin (3.0/1.0)
+|   |   |   Vertical Overlap > 0.052089: NoJoin (4.0)
+|   Minimum Distance > 0.007606
+|   |   Distance Ratio A <= 0.981354
+|   |   |   Centroid Distance <= 0.108897
+|   |   |   |   Horizontal Overlap <= 0.002881
+|   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.01781: Ignore (5.0)
+|   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.01781: NoJoin (3.0)
+|   |   |   |   Horizontal Overlap > 0.002881: NoJoin (11.0)
+|   |   |   Centroid Distance > 0.108897
+|   |   |   |   Distance Ratio A <= 0.975706: NoJoin (3.0/1.0)
+|   |   |   |   Distance Ratio A > 0.975706: Ignore (13.0)
+|   |   Distance Ratio A > 0.981354
+|   |   |   Distance Ratio B <= 0.980419
+|   |   |   |   Vertical Overlap <= 0.00304: Ignore (4.0)
+|   |   |   |   Vertical Overlap > 0.00304: Join (3.0/1.0)
+|   |   |   Distance Ratio B > 0.980419
+|   |   |   |   Centroid Distance <= 0.048756
+|   |   |   |   |   Distance Ratio B <= 0.982373: Join (2.0)
+|   |   |   |   |   Distance Ratio B > 0.982373
+|   |   |   |   |   |   Vertical Overlap <= -0.005484: NoJoin (15.0)
+|   |   |   |   |   |   Vertical Overlap > -0.005484
+|   |   |   |   |   |   |   Vertical Overlap <= 0.003207: Join (3.0)
+|   |   |   |   |   |   |   Vertical Overlap > 0.003207: NoJoin (4.0)
+|   |   |   |   Centroid Distance > 0.048756
+|   |   |   |   |   Vertical Overlap <= 0.00654
+|   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.019755
+|   |   |   |   |   |   |   Vertical Overlap <= -0.008477: NoJoin (7.0)
+|   |   |   |   |   |   |   Vertical Overlap > -0.008477
+|   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.998051: NoJoin (5.0/1.0)
+|   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.998051
+|   |   |   |   |   |   |   |   |   Vertical Overlap <= -0.000996: Join (18.0)
+|   |   |   |   |   |   |   |   |   Vertical Overlap > -0.000996
+|   |   |   |   |   |   |   |   |   |   Vertical Overlap <= 0.000938: NoJoin (5.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Vertical Overlap > 0.000938: Join (5.0)
+|   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.019755: Join (21.0)
+|   |   |   |   |   Vertical Overlap > 0.00654
+|   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.999185: NoJoin (11.0/1.0)
+|   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.999185
+|   |   |   |   |   |   |   Maximum Distance <= 0.276904: NoJoin (2.0)
+|   |   |   |   |   |   |   Maximum Distance > 0.276904: Join (5.0)
+Minimum Endpoint to Any Point Distance > 0.013353
+|   Minimum Distance <= 0.015699
+|   |   Minimum Endpoint to Endpoint Distance <= 0.010588
+|   |   |   Horizontal Overlap <= 0.017607
+|   |   |   |   Distance Ratio B <= 0.989238: NoJoin (5.0/1.0)
+|   |   |   |   Distance Ratio B > 0.989238: Join (75.0)
+|   |   |   Horizontal Overlap > 0.017607
+|   |   |   |   Minimum Distance <= 0.003624
+|   |   |   |   |   Distance Ratio A <= 0.999962: NoJoin (2.0)
+|   |   |   |   |   Distance Ratio A > 0.999962
+|   |   |   |   |   |   Maximum Distance <= 0.362987: Join (3.0)
+|   |   |   |   |   |   Maximum Distance > 0.362987: NoJoin (2.0)
+|   |   |   |   Minimum Distance > 0.003624: NoJoin (25.0)
+|   |   Minimum Endpoint to Endpoint Distance > 0.010588
+|   |   |   Horizontal Overlap <= 0.003579
+|   |   |   |   Distance Ratio A <= 0.981055
+|   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.982451: NoJoin (9.0)
+|   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.982451
+|   |   |   |   |   |   Horizontal Overlap <= -0.012413: Ignore (5.0)
+|   |   |   |   |   |   Horizontal Overlap > -0.012413
+|   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.999238
+|   |   |   |   |   |   |   |   Time Gap <= 17290
+|   |   |   |   |   |   |   |   |   Minimum Distance <= 0.01319: Ignore (3.0/1.0)
+|   |   |   |   |   |   |   |   |   Minimum Distance > 0.01319: NoJoin (4.0)
+|   |   |   |   |   |   |   |   Time Gap > 17290: Ignore (4.0)
+|   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.999238: NoJoin (6.0)
+|   |   |   |   Distance Ratio A > 0.981055
+|   |   |   |   |   Vertical Overlap <= 0.017557
+|   |   |   |   |   |   Distance Ratio B <= 0.980276
+|   |   |   |   |   |   |   Maximum Distance <= 0.163332: NoJoin (2.0)
+|   |   |   |   |   |   |   Maximum Distance > 0.163332: Ignore (3.0/1.0)
+|   |   |   |   |   |   Distance Ratio B > 0.980276
+|   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.911333: Join (14.0)
+|   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.911333
+|   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.085971
+|   |   |   |   |   |   |   |   |   Time Gap <= 1572: Join (8.0)
+|   |   |   |   |   |   |   |   |   Time Gap > 1572
+|   |   |   |   |   |   |   |   |   |   Vertical Overlap <= 0.007127
+|   |   |   |   |   |   |   |   |   |   |   Horizontal Overlap <= -0.013536: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   |   |   Horizontal Overlap > -0.013536
+|   |   |   |   |   |   |   |   |   |   |   |   Distance Ratio A <= 0.995788: Join (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Distance Ratio A > 0.995788
+|   |   |   |   |   |   |   |   |   |   |   |   |   Distance Ratio B <= 0.999421: NoJoin (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Distance Ratio B > 0.999421: Join (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Vertical Overlap > 0.007127: NoJoin (4.0)
+|   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.085971: NoJoin (7.0)
+|   |   |   |   |   Vertical Overlap > 0.017557: NoJoin (17.0)
+|   |   |   Horizontal Overlap > 0.003579
+|   |   |   |   Minimum Distance <= 0.000479
+|   |   |   |   |   Vertical Overlap <= 0.016509
+|   |   |   |   |   |   Distance Ratio B <= 0.999869: Join (6.0)
+|   |   |   |   |   |   Distance Ratio B > 0.999869
+|   |   |   |   |   |   |   Time Gap <= 6923: Join (10.0/1.0)
+|   |   |   |   |   |   |   Time Gap > 6923
+|   |   |   |   |   |   |   |   Minimum Distance <= 0.000111: Join (4.0)
+|   |   |   |   |   |   |   |   Minimum Distance > 0.000111
+|   |   |   |   |   |   |   |   |   Centroid Distance <= 0.16618: NoJoin (13.0/2.0)
+|   |   |   |   |   |   |   |   |   Centroid Distance > 0.16618: Join (3.0)
+|   |   |   |   |   Vertical Overlap > 0.016509
+|   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.775777: Join (3.0)
+|   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.775777: NoJoin (46.0/5.0)
+|   |   |   |   Minimum Distance > 0.000479
+|   |   |   |   |   Distance Ratio B <= 0.981121: NoJoin (144.0/8.0)
+|   |   |   |   |   Distance Ratio B > 0.981121
+|   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.086129
+|   |   |   |   |   |   |   Horizontal Overlap <= 0.02857
+|   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance <= 0.063483
+|   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.047028
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.944586: Join (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.944586
+|   |   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.026094
+|   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.993835
+|   |   |   |   |   |   |   |   |   |   |   |   |   Horizontal Overlap <= 0.017757: Join (11.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Horizontal Overlap > 0.017757: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.993835: NoJoin (12.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.026094: NoJoin (11.0)
+|   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.047028
+|   |   |   |   |   |   |   |   |   |   Time Gap <= 2642: Join (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   Time Gap > 2642: NoJoin (41.0)
+|   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance > 0.063483
+|   |   |   |   |   |   |   |   |   Vertical Overlap <= -0.004329: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   Vertical Overlap > -0.004329
+|   |   |   |   |   |   |   |   |   |   Horizontal Overlap <= 0.007372
+|   |   |   |   |   |   |   |   |   |   |   Maximum Distance <= 0.18603: Join (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Maximum Distance > 0.18603: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   |   Horizontal Overlap > 0.007372: Join (17.0/1.0)
+|   |   |   |   |   |   |   Horizontal Overlap > 0.02857
+|   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.984487
+|   |   |   |   |   |   |   |   |   Time Gap <= 440: Join (5.0/2.0)
+|   |   |   |   |   |   |   |   |   Time Gap > 440
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.890321
+|   |   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance <= 0.073042: Join (6.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance > 0.073042: NoJoin (7.0)
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.890321: NoJoin (100.0/5.0)
+|   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.984487: NoJoin (73.0)
+|   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.086129: NoJoin (397.0/9.0)
+|   Minimum Distance > 0.015699
+|   |   Maximum Distance <= 0.2175
+|   |   |   Distance Ratio A <= 0.977455
+|   |   |   |   Distance Ratio B <= 0.984155
+|   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.976956: NoJoin (738.0/22.0)
+|   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.976956
+|   |   |   |   |   |   Maximum Distance <= 0.160348
+|   |   |   |   |   |   |   Vertical Overlap <= -0.005551: NoJoin (1659.0/243.0)
+|   |   |   |   |   |   |   Vertical Overlap > -0.005551
+|   |   |   |   |   |   |   |   Maximum Distance <= 0.089865
+|   |   |   |   |   |   |   |   |   Time Gap <= 41808
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.998776: NoJoin (25.0/6.0)
+|   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.998776
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.991187: NoJoin (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.991187
+|   |   |   |   |   |   |   |   |   |   |   |   Maximum Distance <= 0.071598: Ignore (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Maximum Distance > 0.071598
+|   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Distance <= 0.029146: NoJoin (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Distance > 0.029146
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.999822
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Vertical Overlap <= 0.003921: NoJoin (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Vertical Overlap > 0.003921: Ignore (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.999822: Ignore (4.0)
+|   |   |   |   |   |   |   |   |   Time Gap > 41808: Ignore (17.0/1.0)
+|   |   |   |   |   |   |   |   Maximum Distance > 0.089865
+|   |   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance <= 0.032139
+|   |   |   |   |   |   |   |   |   |   Centroid Distance <= 0.051333: NoJoin (6.0)
+|   |   |   |   |   |   |   |   |   |   Centroid Distance > 0.051333
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.993118: Ignore (8.0)
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.993118
+|   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.996847: NoJoin (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.996847
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance <= 0.998353: Ignore (6.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Endpoint Distance to Overall Minimum Distance > 0.998353
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.99996: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.99996
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Vertical Overlap <= 0.001885: Ignore (11.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Vertical Overlap > 0.001885: NoJoin (3.0)
+|   |   |   |   |   |   |   |   |   Minimum Endpoint to Any Point Distance > 0.032139
+|   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance <= 0.120391: NoJoin (209.0/46.0)
+|   |   |   |   |   |   |   |   |   |   Minimum Endpoint to Endpoint Distance > 0.120391
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance <= 0.995811: NoJoin (2.0)
+|   |   |   |   |   |   |   |   |   |   |   Ratio Minimum Endpoint to Any Point Distance to Overall Minimum Distance > 0.995811
+|   |   |   |   |   |   |   |   |   |   |   |   Maximum Distance <= 0.154769: Ignore (9.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Maximum Distance > 0.154769: NoJoin (3.0/1.0)
+|   |   |   |   |   |   Maximum Distance > 0.160348: NoJoin (2800.0/283.0)
+|   |   |   |   Distance Ratio B > 0.984155: NoJoin (300.0)
+|   |   |   Distance Ratio A > 0.977455: NoJoin (421.0)
+|   |   Maximum Distance > 0.2175: NoJoin (36062.0/1336.0)
+
+Number of Leaves  : 	99
+
+Size of the tree : 	197
+
+
+Weight: 3.07

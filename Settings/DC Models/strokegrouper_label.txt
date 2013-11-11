@@ -1,0 +1,22 @@
+AdaBoostM1: Base classifiers and their weights: 
+
+J48 pruned tree
+------------------
+
+Minimum Distance <= 0.013937
+|   Distance Ratio B <= 0.990317
+|   |   Distance Ratio A <= 0.979456: Ignore (13.0)
+|   |   Distance Ratio A > 0.979456: Join (11.0/1.0)
+|   Distance Ratio B > 0.990317: Join (689.0)
+Minimum Distance > 0.013937
+|   Minimum Endpoint to Endpoint Distance <= 0.024702
+|   |   Maximum Distance <= 0.034971: Ignore (10.0)
+|   |   Maximum Distance > 0.034971: NoJoin (15.0)
+|   Minimum Endpoint to Endpoint Distance > 0.024702: NoJoin (4087.0/1.0)
+
+Number of Leaves  : 	6
+
+Size of the tree : 	11
+
+
+Weight: 7.79

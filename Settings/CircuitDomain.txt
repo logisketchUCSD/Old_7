@@ -1,0 +1,39 @@
+Label Label 0 F Gate 0 F Label 0 F Wire
+Label Label 0 F Gate 0 F Label 1 F Wire
+Label Label 1 F Gate 0 F Label 0 F Wire
+// Wire Wire 2 + Gate 0 F Label 0 F Wire
+// Wire Wire 1 + Gate 1 F Label 0 F Wire
+Wire Wire 2 + Gate 0 F Label 0 + Wire
+Wire Wire 1 + Gate 1 F Label 0 + Wire
+Wire Wire 0 + Gate 1 F Label 1 + Wire
+Wire Wire 1 + Gate 0 F Label 1 + Wire
+Wire Wire 0 F Gate 0 F Label 2 - Wire
+Gate NOTBUBBLE 1 F Gate 0 F Label 1 F Wire
+Gate BUFFER 0 F Gate 0 F Label 2 F Wire
+Gate AND 0 F Gate 0 F Label 3 + Wire
+Gate OR 0 F Gate 0 F Label 3 + Wire
+Gate NOT 0 F Gate 0 F Label 2 F Wire
+Gate NAND 0 F Gate 0 F Label 3 + Wire
+Gate NOR 0 F Gate 0 F Label 3 + Wire
+Gate XOR 0 F Gate 0 F Label 3 + Wire
+Gate XNOR 0 F Gate 0 F Label 3 + Wire
+Gate BUFFER 1 F Gate 0 F Label 1 F Wire
+// Gate AND 1 F Gate 0 F Label 2 + Wire
+// Gate OR 1 F Gate 0 F Label 2 + Wire
+// Gate NAND 1 F Gate 0 F Label 2 + Wire
+// Gate NOR 1 F Gate 0 F Label 2 + Wire
+// Gate XOR 1 F Gate 0 F Label 2 + Wire
+// Gate XNOR 1 F Gate 0 F Label 2 + Wire
+Gate LabelBox 0 F Gate 1 F Label 1 F Wire
+-
+Label Label .57
+Label Gate .06
+Label Wire .05
+Gate Gate .63
+Gate Wire .08
+Gate Label .30
+Wire Wire .87
+Wire Label .13
+Wire Gate .31
+
+ 

@@ -1,0 +1,482 @@
+J48 pruned tree
+------------------
+
+Distance To Left or Right Edge <= 0.058343
+|   Bounding Box Width <= 0.79472
+|   |   Sum of Thetas <= 1.218363
+|   |   |   Part of a Closed Path <= 0
+|   |   |   |   Sum of Squared Thetas <= 0.001686
+|   |   |   |   |   Distance To Left or Right Edge <= 0.013363: Label (13.42/0.48)
+|   |   |   |   |   Distance To Left or Right Edge > 0.013363: Wire (39.64)
+|   |   |   |   Sum of Squared Thetas > 0.001686
+|   |   |   |   |   Bounding Box Area <= 0.472766
+|   |   |   |   |   |   Time to Next Stroke <= 0.331: Label (107.99/0.37)
+|   |   |   |   |   |   Time to Next Stroke > 0.331
+|   |   |   |   |   |   |   Bounding Box Width <= 0.591524
+|   |   |   |   |   |   |   |   Minimum Pen Speed <= 0.756398
+|   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.754248
+|   |   |   |   |   |   |   |   |   |   Arc Length <= 0.076788: Wire (20.01/7.18)
+|   |   |   |   |   |   |   |   |   |   Arc Length > 0.076788
+|   |   |   |   |   |   |   |   |   |   |   Number of Self Intersections <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width <= 0.360443
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.2: Label (204.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.494: Gate (9.95)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.494
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area <= 0.005138: Gate (5.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area > 0.005138: Label (48.23/0.12)
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width > 0.360443
+|   |   |   |   |   |   |   |   |   |   |   |   |   Arc Length <= 0.298704
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.210654: Wire (20.86/0.67)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.210654: Gate (9.68/0.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Arc Length > 0.298704
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.77532
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.12: Gate (4.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke > 0.12: Label (52.33/0.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.77532: Gate (12.47/0.2)
+|   |   |   |   |   |   |   |   |   |   |   Number of Self Intersections > 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.364142: Gate (5.96)
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.364142: Wire (8.02/0.83)
+|   |   |   |   |   |   |   |   |   Bounding Box Height > 0.754248
+|   |   |   |   |   |   |   |   |   |   Path Density <= 0.207553
+|   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke <= 1.339: Gate (49.46/1.92)
+|   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke > 1.339
+|   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.1: Gate (6.82/0.69)
+|   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.1: Wire (31.45/0.22)
+|   |   |   |   |   |   |   |   |   |   Path Density > 0.207553: Label (21.07/0.24)
+|   |   |   |   |   |   |   |   Minimum Pen Speed > 0.756398
+|   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0: Label (24.59)
+|   |   |   |   |   |   |   |   |   Number of LL Intersections > 0
+|   |   |   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.188: Label (13.39/0.22)
+|   |   |   |   |   |   |   |   |   |   Time to Draw Stroke > 0.188: Gate (86.41/1.07)
+|   |   |   |   |   |   |   Bounding Box Width > 0.591524
+|   |   |   |   |   |   |   |   Sum of Abs Value of Thetas <= 0.116619: Label (5.96)
+|   |   |   |   |   |   |   |   Sum of Abs Value of Thetas > 0.116619
+|   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.018825: Gate (12.26/0.84)
+|   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.018825
+|   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.475371: Wire (33.06/0.15)
+|   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.475371: Gate (6.33/0.22)
+|   |   |   |   |   Bounding Box Area > 0.472766
+|   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.597146: Wire (26.94/0.11)
+|   |   |   |   |   |   Sum of Sqrt of Thetas > 0.597146
+|   |   |   |   |   |   |   Time to Draw Stroke <= 0.37: Label (40.63/0.15)
+|   |   |   |   |   |   |   Time to Draw Stroke > 0.37: Wire (54.42/0.59)
+|   |   |   Part of a Closed Path > 0
+|   |   |   |   Sum of Sqrt of Thetas <= 1.167688
+|   |   |   |   |   Time to Next Stroke <= 0.202: Label (38.07)
+|   |   |   |   |   Time to Next Stroke > 0.202
+|   |   |   |   |   |   Bounding Box Width <= 0.309831
+|   |   |   |   |   |   |   Number of XL Intersections <= 0
+|   |   |   |   |   |   |   |   Time to Next Stroke <= 0.906
+|   |   |   |   |   |   |   |   |   Bounding Box Height <= 1.066162
+|   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.261
+|   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.300199: Gate (38.34/0.33)
+|   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 0.300199: Label (13.78)
+|   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.261
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.898631
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 1.095328
+|   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area <= 0.026355: Label (138.02/0.15)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area > 0.026355
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.00809: Label (58.45/0.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.00809
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.375: Label (12.11/0.51)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.375: Gate (42.84/0.69)
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 1.095328
+|   |   |   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.083206: Label (13.63)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Path Density > 0.083206
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.292467: Label (4.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas > -0.292467: Gate (42.56/0.77)
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.898631: Label (133.64/0.4)
+|   |   |   |   |   |   |   |   |   Bounding Box Height > 1.066162
+|   |   |   |   |   |   |   |   |   |   Number of XX Intersections <= 0.1: Gate (60.4/0.2)
+|   |   |   |   |   |   |   |   |   |   Number of XX Intersections > 0.1: Label (4.81)
+|   |   |   |   |   |   |   |   Time to Next Stroke > 0.906
+|   |   |   |   |   |   |   |   |   Bounding Box Width <= 0.1092
+|   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.182387: Label (9.08)
+|   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.182387: Gate (191.16/0.29)
+|   |   |   |   |   |   |   |   |   Bounding Box Width > 0.1092
+|   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 0.957974
+|   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 1.630299: Label (79.86/0.12)
+|   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed > 1.630299: Gate (7.08)
+|   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 0.957974: Gate (15.27/0.48)
+|   |   |   |   |   |   |   Number of XL Intersections > 0: Label (50.52)
+|   |   |   |   |   |   Bounding Box Width > 0.309831
+|   |   |   |   |   |   |   Sum of Thetas <= -0.465592
+|   |   |   |   |   |   |   |   Number of XL Intersections <= 0.2: Label (35.34/0.18)
+|   |   |   |   |   |   |   |   Number of XL Intersections > 0.2: Gate (7.07)
+|   |   |   |   |   |   |   Sum of Thetas > -0.465592
+|   |   |   |   |   |   |   |   Time to Previous Stroke <= 0.215: Label (19.59)
+|   |   |   |   |   |   |   |   Time to Previous Stroke > 0.215
+|   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 1.144491: Gate (375.43/1.47)
+|   |   |   |   |   |   |   |   |   Minimum Pen Speed > 1.144491
+|   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 1.240178: Gate (13.81/0.0)
+|   |   |   |   |   |   |   |   |   |   Average Pen Speed > 1.240178: Label (14.32)
+|   |   |   |   Sum of Sqrt of Thetas > 1.167688
+|   |   |   |   |   Time to Draw Stroke <= 1.06: Label (212.45/0.74)
+|   |   |   |   |   Time to Draw Stroke > 1.06
+|   |   |   |   |   |   Bounding Box Width <= 0.439109
+|   |   |   |   |   |   |   Time to Next Stroke <= 1.083: Gate (4.95)
+|   |   |   |   |   |   |   Time to Next Stroke > 1.083: Label (28.83)
+|   |   |   |   |   |   Bounding Box Width > 0.439109: Gate (29.04)
+|   |   Sum of Thetas > 1.218363: Wire (46.47)
+|   Bounding Box Width > 0.79472
+|   |   Part of a Closed Path <= 0
+|   |   |   Sum of Abs Value of Thetas <= 1.057147
+|   |   |   |   Number of Self Intersections <= 0
+|   |   |   |   |   Distance To Left or Right Edge <= 0.005918: Gate (11.22/0.24)
+|   |   |   |   |   Distance To Left or Right Edge > 0.005918
+|   |   |   |   |   |   Time to Previous Stroke <= 0.546: Gate (10.2/0.17)
+|   |   |   |   |   |   Time to Previous Stroke > 0.546: Wire (189.31/0.24)
+|   |   |   |   Number of Self Intersections > 0: Gate (10.6/0.65)
+|   |   |   Sum of Abs Value of Thetas > 1.057147: Gate (26.06/1.4)
+|   |   Part of a Closed Path > 0: Gate (82.25/0.15)
+Distance To Left or Right Edge > 0.058343
+|   Distance To Top or Bottom Edge <= 0.010701
+|   |   Number of XX Intersections <= 0
+|   |   |   Bounding Box Height <= 0.776381
+|   |   |   |   Self Enclosing <= 0
+|   |   |   |   |   Path Density <= 0.052579
+|   |   |   |   |   |   Number of LL Intersections <= 0.2: Label (5.28)
+|   |   |   |   |   |   Number of LL Intersections > 0.2: Gate (32.78/0.2)
+|   |   |   |   |   Path Density > 0.052579
+|   |   |   |   |   |   Bounding Box Width <= 0.77289
+|   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 2.572676: Label (171.97/1.02)
+|   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 2.572676
+|   |   |   |   |   |   |   |   Part of a Closed Path <= 0: Label (4.38)
+|   |   |   |   |   |   |   |   Part of a Closed Path > 0: Gate (10.6)
+|   |   |   |   |   |   Bounding Box Width > 0.77289: Gate (9.91/0.99)
+|   |   |   |   Self Enclosing > 0: Gate (13.79/5.79)
+|   |   |   Bounding Box Height > 0.776381
+|   |   |   |   Bounding Box Width <= 2.661975
+|   |   |   |   |   Number of Self Intersections <= 0.2: Gate (98.28/0.48)
+|   |   |   |   |   Number of Self Intersections > 0.2: Label (7.18)
+|   |   |   |   Bounding Box Width > 2.661975: Wire (8.98/0.12)
+|   |   Number of XX Intersections > 0
+|   |   |   Minimum Pen Speed <= 0.748594: Wire (32.94/0.12)
+|   |   |   Minimum Pen Speed > 0.748594: Gate (6.3)
+|   Distance To Top or Bottom Edge > 0.010701
+|   |   Distance To Left or Right Edge <= 0.911827
+|   |   |   Number of LL Intersections <= 0
+|   |   |   |   End Point to Arc Length Ratio <= 0.550208
+|   |   |   |   |   Path Density <= 0.25744
+|   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.94822
+|   |   |   |   |   |   |   Inside a Closed Path <= 0
+|   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.143941
+|   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0: Label (47.64/0.8)
+|   |   |   |   |   |   |   |   |   Number of LX Intersections > 0: Gate (6.48/0.68)
+|   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.143941
+|   |   |   |   |   |   |   |   |   Sum of Thetas <= 1.069517: Gate (202.46/6.14)
+|   |   |   |   |   |   |   |   |   Sum of Thetas > 1.069517
+|   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 1.831193: Gate (4.28)
+|   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 1.831193: Label (4.27/0.0)
+|   |   |   |   |   |   |   Inside a Closed Path > 0: Label (8.0)
+|   |   |   |   |   |   Distance To Top or Bottom Edge > 0.94822
+|   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.238448: Gate (6.93/0.35)
+|   |   |   |   |   |   |   Distance To Left or Right Edge > 0.238448: Label (44.02/0.58)
+|   |   |   |   |   Path Density > 0.25744: Wire (19.15)
+|   |   |   |   End Point to Arc Length Ratio > 0.550208
+|   |   |   |   |   Time to Next Stroke <= 0.304: Label (32.69/0.13)
+|   |   |   |   |   Time to Next Stroke > 0.304
+|   |   |   |   |   |   Minimum Pen Speed <= 1.645688
+|   |   |   |   |   |   |   Number of LX Intersections <= 0
+|   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.13: Gate (6.36/0.17)
+|   |   |   |   |   |   |   |   Time to Draw Stroke > 0.13: Wire (53.4/2.91)
+|   |   |   |   |   |   |   Number of LX Intersections > 0: Wire (80.55/0.2)
+|   |   |   |   |   |   Minimum Pen Speed > 1.645688: Gate (26.04/1.12)
+|   |   |   Number of LL Intersections > 0
+|   |   |   |   Part of a Closed Path <= 0
+|   |   |   |   |   Bounding Box Height <= 0.135239
+|   |   |   |   |   |   Time to Previous Stroke <= 0.47
+|   |   |   |   |   |   |   Time to Previous Stroke <= 0.349: Wire (31.26)
+|   |   |   |   |   |   |   Time to Previous Stroke > 0.349: Label (17.97/0.85)
+|   |   |   |   |   |   Time to Previous Stroke > 0.47
+|   |   |   |   |   |   |   Minimum Pen Speed <= 0.701881
+|   |   |   |   |   |   |   |   Average Pen Speed <= 0.224028
+|   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 0.2806
+|   |   |   |   |   |   |   |   |   |   Sum of Thetas <= 0.341989
+|   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.023115: Gate (5.96)
+|   |   |   |   |   |   |   |   |   |   |   Path Density > 0.023115: Wire (57.93)
+|   |   |   |   |   |   |   |   |   |   Sum of Thetas > 0.341989: Gate (13.25/0.11)
+|   |   |   |   |   |   |   |   |   Minimum Pen Speed > 0.2806: Gate (9.68/0.0)
+|   |   |   |   |   |   |   |   Average Pen Speed > 0.224028
+|   |   |   |   |   |   |   |   |   Sum of Thetas <= 0.406473: Wire (269.36/0.12)
+|   |   |   |   |   |   |   |   |   Sum of Thetas > 0.406473
+|   |   |   |   |   |   |   |   |   |   Sum of Abs Value of Thetas <= 0.439584: Gate (8.54)
+|   |   |   |   |   |   |   |   |   |   Sum of Abs Value of Thetas > 0.439584: Wire (33.31)
+|   |   |   |   |   |   |   Minimum Pen Speed > 0.701881
+|   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.386515: Wire (35.66)
+|   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.386515
+|   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.500656: Gate (46.85/1.37)
+|   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.500656: Wire (3.45)
+|   |   |   |   |   Bounding Box Height > 0.135239
+|   |   |   |   |   |   Bounding Box Height <= 3.078098
+|   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.498433
+|   |   |   |   |   |   |   |   Number of Self Intersections <= 0.3
+|   |   |   |   |   |   |   |   |   Arc Length <= 0.345834
+|   |   |   |   |   |   |   |   |   |   Path Density <= 0.059612: Label (5.15)
+|   |   |   |   |   |   |   |   |   |   Path Density > 0.059612
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.390005: Gate (14.11/0.52)
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.390005
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.626957: Wire (43.43)
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.626957: Gate (4.67)
+|   |   |   |   |   |   |   |   |   Arc Length > 0.345834
+|   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.128612
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.881109: Gate (26.43/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.881109: Label (13.96)
+|   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.128612
+|   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.394
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 1.211955: Gate (7.14)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 1.211955: Label (8.64)
+|   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.394: Gate (332.24/0.81)
+|   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0
+|   |   |   |   |   |   |   |   |   |   |   Sum of Abs Value of Thetas <= 0.946859: Gate (45.68/0.11)
+|   |   |   |   |   |   |   |   |   |   |   Sum of Abs Value of Thetas > 0.946859: Wire (40.49/0.37)
+|   |   |   |   |   |   |   |   Number of Self Intersections > 0.3: Wire (36.17/0.43)
+|   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.498433
+|   |   |   |   |   |   |   |   Sum of Squared Thetas <= 1.693305
+|   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.379808
+|   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.250749: Wire (18.6/0.15)
+|   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.250749
+|   |   |   |   |   |   |   |   |   |   |   Bounding Box Width <= 0.075705: Wire (13.05/0.01)
+|   |   |   |   |   |   |   |   |   |   |   Bounding Box Width > 0.075705
+|   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 3.580651
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0.1: Gate (185.31/3.93)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.439: Gate (18.09)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke > 0.439: Wire (7.23)
+|   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 3.580651: Wire (7.32/0.31)
+|   |   |   |   |   |   |   |   |   Sum of Thetas > -0.379808
+|   |   |   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.842
+|   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.858566
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width <= 2.081796
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 1.535274
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.076153: Wire (34.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 0.076153
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.043335
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.799586
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.037265: Wire (70.13/0.36)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density > 0.037265
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.2: Gate (28.62/1.93)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.2: Wire (14.99/0.68)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.799586
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 1.686324
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.3
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.29341: Wire (9.82/0.62)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas > -0.29341
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 6.625
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 0.8785
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 0.090906: Wire (4.64)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 0.090906: Gate (4.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 0.8785: Gate (86.52/0.82)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 6.625: Wire (6.19)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections > 0: Wire (5.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.3: Gate (144.23/0.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 0.16292
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.152321: Gate (4.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas > -0.152321: Wire (20.8)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed > 0.16292: Gate (21.65/0.37)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 1.686324: Wire (11.13/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density > 0.043335
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.406113: Wire (13.3)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.406113
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.341066
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Arc Length <= 0.677744
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width <= 0.563679
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Maximum Pen Speed <= 1.252343
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.636081: Gate (5.97)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.636081: Wire (8.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Maximum Pen Speed > 1.252343
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.948448: Gate (176.11/0.93)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.948448
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area <= 0.054641: Gate (32.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area > 0.054641: Wire (10.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width > 0.563679
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.5: Wire (13.08)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.5: Gate (7.14/0.17)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Arc Length > 0.677744
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke <= 0.52
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.602885: Wire (5.42)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.602885: Gate (34.08/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke > 0.52: Wire (70.45/1.43)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Path Density > 0.341066: Wire (13.1)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections > 0: Wire (26.77/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.82
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.112146
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 2.048531: Wire (5.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 2.048531: Gate (15.11/0.01)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 0.112146
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.629125
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 1.046472: Wire (36.05)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 1.046472
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 1.205739: Gate (8.03)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 1.205739: Wire (28.44)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.2: Gate (47.08/0.49)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.629125
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 1.589971
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke <= 0.497
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.251889: Gate (4.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas > -0.251889: Wire (7.74)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke > 0.497: Wire (200.82/1.34)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 1.589971
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 0.895364
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.769482: Wire (46.28/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.769482: Gate (5.32)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed > 0.895364: Gate (15.1/1.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0: Wire (93.76)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke <= 0.519: Gate (25.92/1.31)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Draw Stroke > 0.519: Wire (17.02/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path > 0: Gate (20.04)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 1.535274: Gate (33.34/0.36)
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width > 2.081796: Wire (40.78)
+|   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.858566: Gate (44.79/0.53)
+|   |   |   |   |   |   |   |   |   |   Time to Draw Stroke > 0.842
+|   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 1.608734
+|   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 0.325315
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 1.552186: Wire (53.83)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 1.552186: Gate (6.06/0.11)
+|   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed > 0.325315: Gate (25.86/0.54)
+|   |   |   |   |   |   |   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 1.608734: Wire (248.87/0.29)
+|   |   |   |   |   |   |   |   Sum of Squared Thetas > 1.693305: Wire (85.25/0.95)
+|   |   |   |   |   |   Bounding Box Height > 3.078098: Wire (88.54)
+|   |   |   |   Part of a Closed Path > 0
+|   |   |   |   |   Difference Between Maximum and Minimum Pen Speed <= 2.425887
+|   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.111922
+|   |   |   |   |   |   |   Inside a Closed Path <= 0
+|   |   |   |   |   |   |   |   Path Density <= 0.227614: Wire (46.21/1.51)
+|   |   |   |   |   |   |   |   Path Density > 0.227614: Gate (5.52)
+|   |   |   |   |   |   |   Inside a Closed Path > 0: Label (18.41/0.33)
+|   |   |   |   |   |   Sum of Sqrt of Thetas > 0.111922
+|   |   |   |   |   |   |   Time to Previous Stroke <= 0.553
+|   |   |   |   |   |   |   |   Maximum Pen Speed <= 0.564682: Wire (8.09)
+|   |   |   |   |   |   |   |   Maximum Pen Speed > 0.564682
+|   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.169515
+|   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.3: Label (45.06/2.64)
+|   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.3
+|   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0.1: Gate (21.06)
+|   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0.1: Label (5.43/0.28)
+|   |   |   |   |   |   |   |   |   Sum of Thetas > -0.169515
+|   |   |   |   |   |   |   |   |   |   Number of XX Intersections <= 0.2: Gate (145.86/0.25)
+|   |   |   |   |   |   |   |   |   |   Number of XX Intersections > 0.2: Label (5.96)
+|   |   |   |   |   |   |   Time to Previous Stroke > 0.553
+|   |   |   |   |   |   |   |   Sum of Thetas <= -1.912937: Wire (39.31)
+|   |   |   |   |   |   |   |   Sum of Thetas > -1.912937
+|   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0.1
+|   |   |   |   |   |   |   |   |   |   Sum of Thetas <= 1.488508
+|   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.973793
+|   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 4.286838
+|   |   |   |   |   |   |   |   |   |   |   |   |   Maximum Pen Speed <= 2.407797
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.093902
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.112316: Wire (4.9)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.112316: Gate (25.56/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path > 0: Label (6.98/0.78)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.093902
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.788313
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.2: Gate (128.5/0.48)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.2
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed <= 0.71666
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width <= 0.147107
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 0.387644: Gate (34.61)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 0.387644
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke <= 5.554
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path <= 0: Wire (45.62/1.6)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Inside a Closed Path > 0: Gate (4.81)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Time to Previous Stroke > 5.554: Gate (12.27)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Width > 0.147107
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.69015
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas <= 0.660532
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.029228: Wire (6.08/0.12)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.029228: Gate (42.35)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 0.660532: Wire (10.76)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Sqrt of Thetas > 0.69015: Gate (134.02/0.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.71666
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.525463: Gate (7.76)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.525463: Wire (26.49/0.92)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Average Pen Speed > 0.788313: Gate (196.13)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Maximum Pen Speed > 2.407797
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 1.4
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio <= 0.64127: Label (22.17/1.85)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.64127: Gate (39.64)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 1.4: Wire (5.79)
+|   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 4.286838
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0: Gate (22.79/11.16)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0: Wire (9.88)
+|   |   |   |   |   |   |   |   |   |   |   End Point to Arc Length Ratio > 0.973793
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.41761: Wire (28.35/0.33)
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.41761: Gate (12.03)
+|   |   |   |   |   |   |   |   |   |   Sum of Thetas > 1.488508
+|   |   |   |   |   |   |   |   |   |   |   Bounding Box Area <= 0.126075: Wire (44.81)
+|   |   |   |   |   |   |   |   |   |   |   Bounding Box Area > 0.126075: Gate (15.38)
+|   |   |   |   |   |   |   |   |   Number of LX Intersections > 0.1
+|   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge <= 0.533443
+|   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 1.5
+|   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections <= 0.1: Gate (8.07)
+|   |   |   |   |   |   |   |   |   |   |   |   Number of LL Intersections > 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   Path Density <= 0.096149: Gate (16.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Path Density > 0.096149
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections <= 1.1
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas <= 0.859051
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height <= 0.174998: Wire (29.34/0.2)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Height > 0.174998: Gate (26.95/0.11)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   Sum of Squared Thetas > 0.859051: Wire (125.41/0.77)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections > 1.1: Gate (6.31/0.32)
+|   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 1.5: Gate (10.24/0.11)
+|   |   |   |   |   |   |   |   |   |   Distance To Left or Right Edge > 0.533443: Gate (33.08/0.1)
+|   |   |   |   |   Difference Between Maximum and Minimum Pen Speed > 2.425887: Gate (229.87/0.5)
+|   |   Distance To Left or Right Edge > 0.911827
+|   |   |   Inside a Closed Path <= 0
+|   |   |   |   Part of a Closed Path <= 0
+|   |   |   |   |   Time to Draw Stroke <= 0.902
+|   |   |   |   |   |   Distance To Left or Right Edge <= 0.933043: Gate (30.42/1.43)
+|   |   |   |   |   |   Distance To Left or Right Edge > 0.933043
+|   |   |   |   |   |   |   Bounding Box Height <= 0.715997
+|   |   |   |   |   |   |   |   Bounding Box Area <= 0.003786: Label (29.94)
+|   |   |   |   |   |   |   |   Bounding Box Area > 0.003786
+|   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.197769: Gate (24.74/0.66)
+|   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.197769
+|   |   |   |   |   |   |   |   |   |   Path Density <= 0.060424
+|   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections <= 0.1
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area <= 0.014321: Gate (4.27)
+|   |   |   |   |   |   |   |   |   |   |   |   Bounding Box Area > 0.014321
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections <= 0.1: Label (31.16/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   Number of LX Intersections > 0.1: Wire (5.86/0.71)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Number of XL Intersections > 0: Wire (9.12/0.48)
+|   |   |   |   |   |   |   |   |   |   |   Number of XX Intersections > 0.1: Gate (5.15)
+|   |   |   |   |   |   |   |   |   |   Path Density > 0.060424
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge <= 0.630729
+|   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas <= -0.269311
+|   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed <= 2.283075: Wire (2.88/0.4)
+|   |   |   |   |   |   |   |   |   |   |   |   |   Minimum Pen Speed > 2.283075: Gate (8.55/0.0)
+|   |   |   |   |   |   |   |   |   |   |   |   Sum of Thetas > -0.269311: Wire (162.29/1.4)
+|   |   |   |   |   |   |   |   |   |   |   Distance To Top or Bottom Edge > 0.630729: Gate (7.91/0.61)
+|   |   |   |   |   |   |   Bounding Box Height > 0.715997
+|   |   |   |   |   |   |   |   Number of LL Intersections <= 0: Label (56.63)
+|   |   |   |   |   |   |   |   Number of LL Intersections > 0
+|   |   |   |   |   |   |   |   |   Time to Next Stroke <= 1.311
+|   |   |   |   |   |   |   |   |   |   Time to Next Stroke <= 0.254: Label (2.02/0.34)
+|   |   |   |   |   |   |   |   |   |   Time to Next Stroke > 0.254: Gate (22.56)
+|   |   |   |   |   |   |   |   |   Time to Next Stroke > 1.311: Label (13.14)
+|   |   |   |   |   Time to Draw Stroke > 0.902: Gate (43.77/1.63)
+|   |   |   |   Part of a Closed Path > 0: Gate (71.26)
+|   |   |   Inside a Closed Path > 0
+|   |   |   |   Number of LL Intersections <= 1: Label (108.91)
+|   |   |   |   Number of LL Intersections > 1: Gate (5.96)
+
+Number of Leaves  : 	237
+
+Size of the tree : 	473
+
+
+Weight: 4.51
